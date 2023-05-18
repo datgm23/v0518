@@ -30,5 +30,11 @@ namespace v0518
             label1.Top = label1.Top + 10;
             label1.Text = "( .  . )";
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(label1.Top.ToString());
+            MessageBox.Show($"label1.Top={label1.Top}");
+        }
     }
 }
